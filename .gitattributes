@@ -1,0 +1,10 @@
+# Text file normalization  
+# Default behavior
+src/** linguist-detectable
+* text=auto eol=lf
+
+examples/site/** linguist-vendored
+
+*.md linguist-documentation
+*.html linguist-vendored
+src/**/*.tsx linguist-detectable
